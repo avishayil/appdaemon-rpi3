@@ -1,5 +1,6 @@
 FROM arm32v7/python:3.6
 
+COPY qemu-arm-static /usr/bin/
 VOLUME /conf
 VOLUME /certs
 EXPOSE 5050
